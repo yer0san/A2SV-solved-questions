@@ -3,6 +3,9 @@ a = list(map(int, input().split()))
 
 wn = 0
 l = 0
+
+
+
 res = 0
 for r in range(n):
     wn += a[r]
