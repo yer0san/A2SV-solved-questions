@@ -1,6 +1,6 @@
 # 616D-Longest-k-Good-Segment
 
-**Problem:** [616D-Longest-k-Good-Segment](https://codeforces.com/contest/616/problem/D)
+**Problem:** [616D-Longest-k-Good-Segment](https://codeforces.com/problemset/problem/616/D)
 
 **time limit per test:** 1 second
 
