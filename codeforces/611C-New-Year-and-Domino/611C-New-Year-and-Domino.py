@@ -1,3 +1,13 @@
+h, w = map(int, input().split())
+
+grid = []
+wid = ['#']*(w+1)
+grid.append(wid)
+for _ in range(h):
+    wid = list(map(str, input().strip()))
+    wad = ['#']
+    grid.append(wad+wid)
+
 # horizontal prefix
 pre = []
 for _ in range(h+1):
@@ -40,3 +50,4 @@ for _ in range(q):
         ans += pre2[r2][j] - pre2[r1][j]
 
     print(ans)
+
